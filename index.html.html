@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=2.0">
+<title>Home - Advance Best Inc.</title>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Tahoma, Geneva, sans-serif;
+    }
+
+    header {
+        background-image: url("https://media.istockphoto.com/id/466818688/photo/blank-watercolor-textured-paper-canvas.webp?b=1&s=170667a&w=0&k=20&c=iAiByac0cBVa5Z9jShwlJHhkB9lLSRbkGIBKr8NnU8U=");
+        background-size: cover;
+        background-position: right;
+        padding: 30px 0;
+        color: #032F48;
+		text-align: center;
+		font-size: 30px;
+    }
+    ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  padding: 15px 24px;
+  text-decoration: none;
+}
+
+/* Add a gray right border to all list items, except the last item (last-child) */
+li {
+  border-right: 1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #F8E43B;
+	}
+	.navbar a:hover {
+        background-color: #F8D537;
+		transition: background-color 0.3s; /* Add transition effect */
+ 	}
+			
+    .container {
+        margin: 20px auto;
+        width: 80%;
+		display: flex;
+		flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .column {
+        width: calc(50% - 20px);
+        margin-bottom: 20px;
+    }
+	
+	@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+	.bounce-button {
+		padding: 10px 30px;
+		font-size: 22px;
+		background-color: #FAD739;
+		color: #C42C2C;
+		border: dashed;
+		border-radius: 10px;
+		cursor: pointer;
+		animation: bounce 0.2s infinite; /* Apply the bounce animation */
+    
+    }
+
+    .bounce-button:hover {
+        background-color: #F9F9F9;
+    }
+
+    .blue-section {
+        background-color: #007bff;
+        color: #fff;
+        padding: 20px 50px;
+        text-align: justify;
+    }
+
+    .blue-section p {
+        margin-bottom: 10px;
+		margin-top: 10px; /* Margin only on the bottom side */
+	}
+	
+	.logo-grid {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr); /* four columns */
+		gap: 30px; /* Gap between logos */
+		margin-top: 30px; /* Margin only on the top side */
+		
+	}
+	
+	.logo-grid img {
+		max-width: 80%; /* Ensure images don't exceed container width */
+}
+
+    .slideshow-container {
+      max-width: 1000px;
+      position: relative;
+      margin: auto;
+    }
+
+    .mySlides {
+      display: none;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+
+</style>
+</head>
+
+<body>
+<script>
+
+</script>
+
+<header>
+    <h1><strong>ADVANCE BEST INC.</strong></h1>
+    <div class="navbar">
+        <ul>
+            <li><a class="active" href="home.html">Home</a></li>
+            <li><a href="mysteryshopping.html">Mystery Shopping</a></li>
+            <li style="float:right"><a class="active" href="become a shopper.html">Become a Shopper</a></li>
+            <li><a href="Contact Us.html">Contact Us</a></li>
+          </ul>
+        
+    </div>
+</header>
+
+
+<body>
+
+    <div class="slideshow-container">
+      <div class="mySlides">
+        <img src="https://qph.cf2.quoracdn.net/main-qimg-02d8e417133ad53712b09f6e55f8413a-lq" alt="Image 1">
+      </div>
+    
+      <div class="mySlides">
+        <img src="https://ajst.s3.amazonaws.com/r/181/static/img/page/info/shutterstock_155755319.jpg" alt="Image 2">
+      </div>
+    
+      <div class="mySlides">
+        <img src="https://nghenghiep.vieclam24h.vn/wp-content/uploads/2023/10/mystery-shopping-5.jpg" alt="Image 3">
+      </div>
+    
+      <div class="mySlides">
+        <img src="https://mrtsconsulting.com/wp-content/uploads/2019/11/mystery-shopper-dp-600x293.jpg.webp" alt="Image 4">
+      </div>
+    
+      <div class="mySlides">
+        <img src="https://news.euspert.com/wp-content/uploads/2014/02/shoppingwriting.jpg" alt="Image 5">
+      </div>
+    
+      <div class="mySlides">
+        <img src="https://www.customerperceptions.ie/wp-content/uploads/2023/03/Common-Mystery-Shopping-Mistakes-To-Avoid-1024x507.jpg" alt="Image 6">
+      </div>
+    </div>
+    <script>
+        var slideIndex = 0;
+        showSlides();
+      
+        function showSlides() {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}
+          slides[slideIndex-1].style.display = "block";
+          setTimeout(showSlides, 5000); // Change image every 5 seconds
+        }
+      </script>    
+
+<div class="container">
+    <div class="column">
+		<p><strong>ABOUT US</strong></P>
+        <p>Advance Best delivers a full array of services to create a performance-based culture to help organizations reach their true potential. Through our comprehensive approach we help our customers engage employees to deliver outstanding experiences consistently over time to build customer loyalty while growing sales and profits.</p>
+        <p>At Advance Best, we are all about the experience, from customers to employees. That's why we're committed to delivering an exceptional candidate experience. Our philosophy is to deliver a positive, consistent experience for job seekers. We're also committed to providing an environment where every candidate and team member has the opportunity to thrive and achieve their goals.</p>
+    </div>
+    <div class="column">
+        <p><strong>AN IMPACTFUL EXPERIENCE</strong></p>
+        <p>At Advance Best, we are all about the experience, from customers to employees. That's why we're committed to delivering an exceptional candidate experience. Our philosophy is to deliver a positive, consistent experience for job seekers. We're also committed to providing an environment where every candidate and team member has the opportunity to thrive and achieve their goals.</p>
+    </div>
+</div>
+
+<div style="text-align: center;">
+    <a href="new3.html" class="button-link">
+    <button class="bounce-button">Become a Shopper</button>
+</a>
+</div>
+
+<div class="blue-section">
+    <h2>OUR STORY</h2>
+    <p>Advance Best helps multi-unit organizations improve performance at each location. We do this by delivering a turn-key suite of solutions for Employee Engagement, Operational Excellence, and Customer Experience Management. We then deploy predictive Analytics, apps and reporting Technology to help our clients focus on what matters most to drive growth and profitability.</p>
+    <p>Our integrated services offering saves our clients both time and money while delivering a simplified approach to performance management.</p>
+</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=4.0">
+<title>Logo Grid</title>
+<link rel="stylesheet" type="text/css" href="styles.css"> <!-- Linking external CSS file -->
+</head>
+<body>
+	<p><center><strong><h1>SPONSORS</h1></strong></center></p>
+<div class="logo-grid">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYPkrXl2UNqKdOlijbtcwzD4LG5DgGiY25i6tqarWsbQ&s" alt="Logo 1">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7LG04ascNFEjdRTk2VjnDmsCb-qam8qxFoABVG_sE5g&s" alt="Logo 2">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGzTsXe9CKoosUtk31riZRMiyB38a8Ax83rlHk5cV8Vg&s" alt="Logo 3">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Walmart_logo.svg/1024px-Walmart_logo.svg.png" alt="Logo 3">
+</div>
+
+</body>
+</html>
+
+</body>
+</html>

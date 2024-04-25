@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=2.0">
+<title>Home - Advance Best Inc.</title>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Tahoma, Geneva, sans-serif;
+    }
+
+    header {
+        background-image: url("https://media.istockphoto.com/id/466818688/photo/blank-watercolor-textured-paper-canvas.webp?b=1&s=170667a&w=0&k=20&c=iAiByac0cBVa5Z9jShwlJHhkB9lLSRbkGIBKr8NnU8U=");
+        background-size: cover;
+        background-position: right;
+        padding: 30px 0;
+        color: #032F48;
+		text-align: center;
+		font-size: 30px;
+    }
+
+    
+</style>
+	<header>
+    <h1><strong>ADVANCE BEST INC.</strong></h1>
+    <div class="navbar">
+	<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  padding: 15px 24px;
+  text-decoration: none;
+}
+
+/* Add a gray right border to all list items, except the last item (last-child) */
+li {
+  border-right: 1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #F8E43B;
+}
+
+/* Basic styling for the form */
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 20px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #087fff;
+}
+
+/* Additional styling for radio buttons */
+input[type="radio"] {
+    margin-right: 8px;
+}
+
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="home.html">Home</a></li>
+  <li><a href="mysteryshopping.html">Mystery Shopping</a></li>
+  <li style="float:right"><a class="active" href="become a shopper.html">Become a Shopper</a></li>
+  <li><a href="Contact Us.html">Contact Us</a></li>
+</ul>
+ </header>
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Become a Mystery Shopper</h1>
+    <form action="Mysteryapplication" method="post" enctype="multipart/form-data">
+        <label for="firstName">First Name *</label>
+        <input type="text" id="firstName" name="firstName" required><br><br>
+
+        <label for="lastName">Last Name *</label>
+        <input type="text" id="lastName" name="lastName" required><br><br>
+
+        <label for="email">Email *</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="phone">Phone Number *</label>
+        <input type="tel" id="phone" name="phone" required><br><br>
+            <script>// Function to allow only digits (0-9) in the input field
+                function restrictToDigits(event) {
+                    const input = event.target;
+                    const value = input.value;
+                    const newValue = value.replace(/\D/g, ''); // Remove all non-digit characters
+                    input.value = newValue;
+                }
+                    // Add event listener to the input field
+                const numericField = document.getElementById('phone');
+                numericField.addEventListener('input', restrictToDigits);
+                </script>
+
+        <label>Gender *</label><br>
+            <select id="gender" name="age" required>
+            <option value="yes">Male</option>
+            <option value="no">Female</option>
+        </select><br><br>
+
+        <label for="street">Street *</label>
+        <input type="text" id="street" name="street" required><br><br>
+
+        <label for="city">City *</label>
+        <input type="text" id="city" name="city" required><br><br>
+
+        <label for="state">State/Province *</label>
+        <input type="text" id="state" name="state" required><br><br>
+
+        <label for="zip">Zip/Postal Code *</label>
+        <input type="text" id="zip" name="zip" required><br><br>
+
+            <Script></Script>
+
+        <label for="age">Are you 18 years old or older? *</label><br>
+        <select id="age" name="age" required>
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+        </select><br><br>
+
+        <label for="felony">Have you ever been convicted of a felony? *</label><br>
+        <select id="felony" name="felony" required>
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+        </select><br><br>
+
+        <label for="misdemeanor">Have you ever been convicted of a misdemeanor? *</label><br>
+        <select id="misdemeanor" name="misdemeanor" required>
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+        </select><br><br>
+
+        <label for="file">Upload File</label>
+        <input type="file" id="file" name="file"><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+   </body>
+
+<body>
+    
+   </html>
